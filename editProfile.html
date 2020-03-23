@@ -1,0 +1,90 @@
+
+<html>
+<title>foodBibleBD</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="style1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body style="background-color:orange; color:orange">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-orange  w3-card" style="height:47px;" >
+ <a href="index.php" class="w3-bar-item w3-button w3-padding-large"><div class="logo"><img src="imag/logo.png"></div></a>
+ <a href="#health" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="height:50px;">Helth Tips</a>
+<a href="#rest" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="height:50px;">Resturants</a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">Osthit burger get 5 star...</a>
+      <a href="#" class="w3-bar-item w3-button">Osthir mamar velpuri...</a>
+      <a href="#" class="w3-bar-item w3-button">Samira reviewed you 5 star...</a>
+    </div>
+  </div>
+    <a href="home.php?logout='1'" id="logout" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-red" style="float:right; width:127px; height:50px;"><strong>Log Out</strong></a>
+
+  <a href="editProfile.php" name="editProfile"  class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-green" title="My Account"><img src="imag/avatar.jpg" class="w3-circle" style="height:30px;width:30px" alt="Avatar"></a>
+ </div>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">>'s Profile</h4>
+         <p class="w3-center"><img src="imag/avatar1.jpg" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+		<form method="post" enctype="multipart/form-data">
+<br/>
+<input type="file" name="image">
+<br/><br/>
+<input type="submit" name="sumit" value="upload"/>
+</form>
+         <hr>
+         <h2><i class="fa fa-user-circle fa-fw w3-margin-right w3-text-theme"></i>Username: <span style="color:red; font-size:25px"><?php echo $username ?></span></h2>
+		 <h2><i class="fa fa-envelope fa-fw w3-margin-right w3-text-theme"></i>Email:<span style="color:red; font-size:25px" ><?php echo $email ?></span></h2>
+		<h2><i class="	fa fa-leaf fa-fw w3-margin-right w3-text-theme"></i>Age:<span style="color:red; font-size:25px"><?php echo $age ?></span></h2>
+	    <h2><i class="fa fa-cutlery fa-fw w3-margin-right w3-text-theme"></i>Favourite Food:<span style="color:red; font-size:25px"><?php echo $fav_food ?></span></h2>
+
+		<h2><i class="fa fa-phone fa-fw w3-margin-right w3-text-theme"></i>Phone Number: <span style="color:red; font-size:25px"><?php echo $phone_number ?></span></h2>
+
+		<h2><i class="fa fa-facebook fa-fw w3-margin-right w3-text-theme"></i>Facebook ID:<span style="color:red; font-size:25px"><?php echo $fb_URL ?></span></h2>
+
+		<h2><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i>Address: <span style="color:red; font-size:25px"><?php echo $address ?></span></h2>
+
+		</div>
+      </div>
+      <br>
+    <!-- End Grid -->
+  </div>
+<!-- End Page Container -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-40 w3-center w3-opacity w3-orange w3-xlarge" style="position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;">
+  <a href="https://www.facebook.com/foodbiblebd/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+</footer>
+
+</body>
+</html>
+ 
+
+
+

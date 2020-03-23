@@ -1,0 +1,133 @@
+
+.texts{
+	position: absolute;
+	width:100%;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	color:white;
+	
+}
+
+.form-wrapper {
+	background:transparent;
+	border-style: none;
+	overflow: hidden;
+	height: 50px;
+	width: 250px;
+	float: right;
+
+}
+
+.form-wrapper #search {
+	border: 3px solid #CCC;
+	color: 	 #0d0d0d;
+	background-color:#ffffb3;
+	height: 51px;
+	width: 200px;
+}
+
+
+.form-wrapper #submit {
+	background-color: #FF8C00;
+	border: 1px solid #FFA500;
+	border-radius: 60%;
+
+	color: #fafafa;
+	cursor: pointer;
+	height: 40px;
+	float: middle;
+	padding: 0;
+	width: 42px
+	
+
+}
+
+.form-wrapper #submit:hover,
+.form-wrapper #submit:focus {
+	background-color: #F0870F;
+
+}
+
+.form-wrapper #submit:active {
+	outline: 0;
+}
+
+.form-wrapper #submit::-moz-focus-inner {
+	border: 1;
+}
+#logout:hover
+{
+	background-color:red;
+	
+}
+
+#barc
+{
+	height:46.5px;
+}
+
+#health
+{
+	height:100vh;
+
+
+}
+.image1
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imag/foodimage2.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.image2
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imag/1.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.image3
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imag/foodimage.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo img
+{
+	height: 42px;
+	float: left;
+	margin-top: -9px;
+}
+.images
+{
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.images:hover
+{
+	opacity: 0.3;
+}
+.extra
+{
+	top:30px;
+}
+
+
+
+
+.rest
+{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(resturants/bd.png);
+	
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}

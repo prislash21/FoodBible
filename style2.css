@@ -1,0 +1,235 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{ font-family: tahoma;
+}
+.hero
+{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imag/foodimage2.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+h1
+{
+	color:white;
+}
+
+
+
+.logo img
+{
+	height: 55px;
+	float: left;
+	margin-top: 10px;
+}
+
+
+.copy
+{
+	width: 70%;
+	margin-left: 15%;
+
+}
+
+
+
+.meal-photo img
+{
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: all 0.05s;
+}
+
+
+.loginBox
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:350px;
+	height: 400px;
+	box-sizing:border-box;
+	background: rgba(0,0,0,.5);
+	padding: 80px 40px;
+}
+.loginBox2
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:350px;
+	height: 530px;
+	box-sizing:border-box;
+	background: rgba(0,0,0,.5);
+	padding: 80px 40px;
+}
+
+.user
+{
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow:hidden;
+	position:absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+
+.logh2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: white;
+	text-align: center;
+}
+.loginBox p
+{
+	margin: 0;
+	padding 0;
+	font-weight: bold;
+	color: white;
+}
+.loginBox2 p
+{
+	margin: 0;
+	padding 0;
+	font-weight: bold;
+	color: white;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox2 input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #FF8C00;
+	font-size: 16px;
+
+}
+.loginBox2 input[type="text"],
+.loginBox2 input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #FF8C00;
+	font-size: 16px;
+
+}
+
+::placeholder
+{
+	color: rgba(255,255,255,.3);
+}
+
+.loginBox input[type="submit"]
+{
+	border: 1px solid #FF8C00;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+	background: none;
+	border-radius: 20px;
+	cursor: pointer;
+	
+}
+.loginBox2 input[type="submit"]
+{
+	border: 1px solid #FF8C00;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+	background: none;
+	border-radius: 20px;
+	cursor: pointer;
+	
+}
+.loginBox input[type="submit"]:hover
+{
+	background-color:#FF8C00;
+	color:black;
+	transition: all 0.3s ease-in;
+}
+.loginBox2 input[type="submit"]:hover
+{
+	background-color:#FF8C00;
+	color:black;
+	transition: all 0.3s ease-in;
+}
+
+
+
+.errorsignup
+{
+	width: 92%;
+	margin: 0px auto;
+	padding: 8px;
+	border: 1px solid 1px #FF8C00;
+	color: #a94442;
+	background: #FF8C00;
+	border-radius: 5px;
+	text-align: left;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imag/foodimage2.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.fixed-footer
+{
+	width: 100%;
+	height: 40px;
+	position: bottom;
+	background: gray;
+	padding: 2px 0;
+	color: #fff;
+	bottom: 0;
+}
